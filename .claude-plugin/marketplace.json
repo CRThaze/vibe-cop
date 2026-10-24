@@ -1,0 +1,15 @@
+{
+  "name": "crthaze-plugins",
+  "description": "Claude Code plugins by CRThaze.",
+  "owner": {
+    "name": "Diego",
+    "email": "diego@crthaze.com"
+  },
+  "plugins": [
+    {
+      "name": "vibe-cop",
+      "source": "./",
+      "description": "Advisor/read-only mode: review and advise without modifying tracked files, running version-control writes, or touching forges."
+    }
+  ]
+}

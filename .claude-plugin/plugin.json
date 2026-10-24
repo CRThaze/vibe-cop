@@ -1,0 +1,13 @@
+{
+  "name": "vibe-cop",
+  "version": "0.9.0",
+  "description": "Advisor/read-only mode: Claude guides and teaches while you write the code; it will not modify tracked files, run version-control writes, or touch forges. Toggle with /vibe-cop.",
+  "author": {
+    "name": "Diego",
+    "email": "diego@crthaze.com"
+  },
+  "homepage": "https://github.com/CRThaze/vibe-cop",
+  "repository": "https://github.com/CRThaze/vibe-cop",
+  "keywords": ["advisor", "read-only", "code-review", "mentor", "learning", "guardrail", "hooks"],
+  "hooks": "./hooks/hooks.json"
+}

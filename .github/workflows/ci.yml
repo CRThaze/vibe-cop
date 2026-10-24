@@ -1,0 +1,12 @@
+name: ci
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: jq empty .claude-plugin/*.json hooks/hooks.json
+      - run: shellcheck -x -P SCRIPTDIR -S warning scripts/*.sh
+      - run: bash scripts/selftest.sh
